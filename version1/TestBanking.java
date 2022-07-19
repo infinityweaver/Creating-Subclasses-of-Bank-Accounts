@@ -9,7 +9,7 @@ import banking.*;
 public class TestBanking {
 
   public static void main(String[] args) {
-    Bank     bank = new Bank();
+    Bank bank = new Bank();
     Customer customer;
     Account account;
 
