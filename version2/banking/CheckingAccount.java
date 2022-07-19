@@ -18,7 +18,7 @@ public class CheckingAccount extends Account
 	@Override
 	public boolean withdraw(double amt)
 	{
-		flag = false;
+		boolean flag = false;
 
 		if(super.getBalance() >= amt)
 		{
