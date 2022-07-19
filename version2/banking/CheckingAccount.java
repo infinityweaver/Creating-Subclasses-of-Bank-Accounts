@@ -34,6 +34,6 @@ public class CheckingAccount extends Account
 				this.protectedBy.withdraw(diff);
 			}
 		}
-		return draw;
+		return flag;
 	}
 }
